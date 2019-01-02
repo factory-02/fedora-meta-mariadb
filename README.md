@@ -19,5 +19,5 @@ SPEC-файл для создания RPM-пакета **meta-mariadb**.
 
 ## Установка
 
-1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/meta-mariadb`.
+1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/fedora-meta-mariadb`.
 2. Установить пакет: `dnf install meta-mariadb`.
