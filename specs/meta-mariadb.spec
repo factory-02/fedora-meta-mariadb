@@ -2,7 +2,6 @@ Name:                           meta-mariadb
 Version:                        1.0.0
 Release:                        1%{?dist}
 Summary:                        META-package for install and configure MariaDB
-
 License:                        GPLv3
 
 Source10:                       server.custom.cnf
