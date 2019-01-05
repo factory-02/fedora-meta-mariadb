@@ -21,7 +21,7 @@ install -p -m 0644 %{SOURCE10} \
     %{buildroot}%{_sysconfdir}/my.cnf.d/server.custom.cnf
 
 %files
-%config(noreplace) %{_sysconfdir}/my.cnf.d/server.custom.cnf
+%config %{_sysconfdir}/my.cnf.d/server.custom.cnf
 
 %changelog
 * Wed Jan 02 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.0-1
