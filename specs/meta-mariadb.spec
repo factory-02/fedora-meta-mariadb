@@ -1,5 +1,5 @@
 Name:                           meta-mariadb
-Version:                        1.0.0
+Version:                        1.0.1
 Release:                        1%{?dist}
 Summary:                        META-package for install and configure MariaDB
 License:                        GPLv3
@@ -24,5 +24,8 @@ install -p -m 0644 %{SOURCE10} \
 %config %{_sysconfdir}/my.cnf.d/server.custom.cnf
 
 %changelog
+* Tue Feb 12 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.1-1
+- New version: 1.0.1.
+
 * Wed Jan 02 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.0-1
 - Initial build.

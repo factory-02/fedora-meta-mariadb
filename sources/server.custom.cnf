@@ -1,5 +1,5 @@
 [mysqld]
-datadir                                 = /home/storage/database/mysql
+datadir                                 = /home/storage/databases/mysql
 skip-external-locking
 skip-name-resolve
 
